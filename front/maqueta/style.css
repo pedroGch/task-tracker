@@ -1,0 +1,66 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-size: 1rem;
+}
+
+h1{  
+  text-align: center;
+  font-size: 2rem;
+  font-family: roboto;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form_section{
+  margin: 20px 0px;
+}
+
+.task_container{
+    display: flex; /* Activa Flexbox */
+    align-items: center; /* Alinea los elementos verticalmente */
+    gap: 1rem; /* Espaciado entre elementos */
+    padding: 0.5rem 1rem; /* Espaciado interno del contenedor */
+    border-bottom: 1px solid #ccc; /* Línea para separar tareas (opcional) */
+    margin-bottom: 5px;
+}
+
+.task_checkbox {
+  width: 20px; /* Tamaño personalizado del checkbox */
+  height: 20px;
+  cursor: pointer; /* Cambia el puntero al pasar sobre el checkbox */
+}
+
+.delete_task {
+  background-color: transparent;
+  /* background-color: #e74c3c; Color de fondo del botón */
+  color: black; /* Color del texto */
+  border: none; /* Sin bordes */
+  border-radius: 0px; /* Bordes redondeados */
+  padding: 0.5rem 1rem; /* Espaciado interno del botón */
+  cursor: pointer; /* Cambia el puntero al pasar sobre el botón */
+  font-size: 0.9rem; /* Ajusta el tamaño del texto */
+  transition: background-color 0.3s ease; /* Animación suave al pasar */
+  margin-left: auto;
+}
+
+.delete_task:hover {
+  background-color: #c0392b; /* Cambia el color al pasar */
+}
+
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

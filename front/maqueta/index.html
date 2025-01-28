@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <h1>Rastreador de tareas</h1>
+    <section class="form_section">
+      <form action="#" >
+        <input type="text" name="task" id="task" placeholder="Agregá una nueva tarea">
+        <label for="task"></label>
+        <button >Agregar tarea</button>
+      </form>
+    </section>
+    <section>
+      <div class="task_container">
+        <input type="checkbox" class="task_checkbox" name="1" id="1">
+        <label for="1" class="sr-only">marcar tarea</label>
+        <span>Hacer la cama</span>
+        <button class="delete_task">Eliminar</button>
+      </div>
+      <div class="task_container">
+        <input type="checkbox" class="task_checkbox" name="2" id="2">
+        <label for="2" class="sr-only">marcar tarea</label>
+        <span>dar de comer a los animales</span>
+        <button class="delete_task">Eliminar</button>
+      </div>
+      <div class="task_container">
+        <input type="checkbox" class="task_checkbox" name="3" id="3" aria-label="prueba con aria label">
+        <span>checkear el email del trabajo</span>
+        <label for="3" class="sr-only">marcar tarea</label>
+        <button class="delete_task">Eliminar</button>
+      </div>
+      <div class="task_container">
+        <input type="checkbox" class="task_checkbox" name="4" id="4" aria-label="prueba con aria label">
+        <label for="3" class="sr-only">marcar tarea</label>
+        <span>limpiar el pasillo</span>
+        <button class="delete_task">Eliminar</button>
+      </div>
+    </section>
+    
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>
