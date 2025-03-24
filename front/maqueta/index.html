@@ -10,37 +10,43 @@
   <main>
     <h1>Rastreador de tareas</h1>
     <section class="form_section">
-      <form action="#" >
+      <form action="#" id="addTaskBtn">
         <input type="text" name="task" id="task" placeholder="Agregá una nueva tarea">
         <label for="task"></label>
         <button >Agregar tarea</button>
       </form>
     </section>
-    <section>
-      <div class="task_container">
+    <section class="form_section">
+      <select name="type_task" id="type_task">
+        <option value="1">Tareas pendientes</option>
+        <option value="2">Tareas realizadas</option>
+      </select>
+    </section>
+    <section class="task_section">
+      <!-- <div class="task_container">
         <input type="checkbox" class="task_checkbox" name="1" id="1">
         <label for="1" class="sr-only">marcar tarea</label>
-        <span>Hacer la cama</span>
+        <span class="task_name">Hacer la cama</span>
         <button class="delete_task">Eliminar</button>
       </div>
       <div class="task_container">
         <input type="checkbox" class="task_checkbox" name="2" id="2">
         <label for="2" class="sr-only">marcar tarea</label>
-        <span>dar de comer a los animales</span>
+        <span class="task_name">dar de comer a los animales</span>
         <button class="delete_task">Eliminar</button>
       </div>
       <div class="task_container">
         <input type="checkbox" class="task_checkbox" name="3" id="3" aria-label="prueba con aria label">
-        <span>checkear el email del trabajo</span>
+        <span class="task_name">checkear el email del trabajo</span>
         <label for="3" class="sr-only">marcar tarea</label>
         <button class="delete_task">Eliminar</button>
       </div>
       <div class="task_container">
         <input type="checkbox" class="task_checkbox" name="4" id="4" aria-label="prueba con aria label">
         <label for="3" class="sr-only">marcar tarea</label>
-        <span>limpiar el pasillo</span>
+        <span class="task_name">limpiar el pasillo</span>
         <button class="delete_task">Eliminar</button>
-      </div>
+      </div> -->
     </section>
     
   </main>
